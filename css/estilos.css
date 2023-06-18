@@ -1,0 +1,116 @@
+@font-face {
+    font-family: Romanesco;
+    src: url(Romanesco-Regular.ttf);
+  }
+
+header{
+    background-color: #A3A656;
+}
+
+footer{
+    background-color: #384001;
+}
+
+.card-title {
+    text-align: center;
+    border-radius: 15px 15px 0 0;
+    background-color: #A3A656;
+    padding: 20px;
+}
+
+#botonReservar a{
+    background-color: #A3A656; 
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 35px;  
+    font-size: 14px; 
+    color: #F2F6F6;
+}
+
+#cardTratamiento{
+    border: none;
+}
+
+
+/*Imagen membresia*/
+#cardMembresia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+  }
+.circle {
+    position: relative;
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    background-color: #384001;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .inner-circle {
+    position: relative;
+    width: 233px;
+    height: 233px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .circle img {
+    width: 50%;
+    height: 50%;
+    z-index: 1;
+  }
+
+  /*Fuentes*/
+  #navbarFooter a, #navbarFooter p{
+    color: #A3A656;
+  }
+
+  /*MAYUSCULAS - MENU*/
+  #navbarSupportedContent a, .reserva span{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  /*NORMAL*/
+  .card-text {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+/*FUENTE: Titulo 2*/
+h2{
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  /*FUENTE: Titulo 1*/
+  h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+  }
+  .carousel-inner h1{
+    font-family: Romanesco;
+    font-weight: 400;
+    font-size: 96px;
+  }
+
+/*Hover*/
+#navbarFooter li a:hover, #navbarSupportedContent li a:hover{
+  color: #FFFF00;
+} 
+
+#botonReservar a:hover{
+ background-color: #384001;
+}
